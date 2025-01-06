@@ -1,1 +1,8 @@
-# Protein-Evolutionary-Order-of-Events
+In this project I have tried to solve one evolutionary order of events: Protein Structure Design or Protein Sequence Translation----which happens first?
+“the design of a protein structure” and “the instruction for its sequence translation” what comes first is investigated with the help of a computational model, HMM-Viterbi that fits well with the already known protein structure formation.
+I have downloaded some protein sequence and their corresponding secondary structure data from DSSP database and then applied python file handling technique and re module of python to clean and transfer the data in required format.
+Once I have considered that protein secondary structures are hidden states and amino acids are observed states and train the HMM-Viterbi model and checked the accuracy with some known data.
+Then considered that amino acids are hidden states and protein secondary structures are observed states and train the HMM-Viterbi model and evaluated the accuracy of the model with some known data.
+The result shows that the accuracy for the former model is significantly higher than the latter indicating that the evolution first pushes for design of a structure of a protein and subsequently instruction flows towards the protein sequence translation.
+The very important indication of this work is that, much before the instruction goes for protein sequence translation, there appears to be a prior need-based arrangement for conceptualizing the design of a protein structure to solve biological problems most dynamically even for very odd circumstances like the production of heat shock proteins.
+However, further evaluation is required with more data.
